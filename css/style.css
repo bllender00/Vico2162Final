@@ -115,7 +115,7 @@ img {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: #aecf00;
     font-weight: bold;
     font-size: 40px;
     transition: 0.6s ease;
@@ -173,9 +173,12 @@ img {
     transition: background-color 0.6s ease;
 }
 
-.active,
+.active {
+    background-color: #aecf00;
+}
+
 .dot:hover {
-    background-color: sandybrown;
+    background-color: rgba(247,122,73, .6);
 }
 
 /* Fading animation */
